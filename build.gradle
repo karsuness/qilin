@@ -16,12 +16,9 @@ buildscript {
     }
 }
 
-plugins {
-    id 'java'
-    id 'idea'
-    id 'maven-publish'
-}
-
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'maven-publish'
 apply plugin: 'io.spring.dependency-management'
 
 group 'com.wjx'
