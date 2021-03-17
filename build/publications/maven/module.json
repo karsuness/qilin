@@ -1,0 +1,268 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.wjx",
+    "module": "qilin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "yiv5huokkvcznbkkbwkqxx6hju"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qilin-1.0.0.jar",
+          "url": "qilin-1.0.0.jar",
+          "size": 37683,
+          "sha512": "d79ac029b1bb417ce861b9f8cff0d2144fe9894305e446de441b3caae59640fdd6e48aa32a5b91a4649c857031fe9a777e651b70b49d921d1781f07ea0b254e0",
+          "sha256": "1145abedbf85afb6f35e35de5360b3a89401d27558c055d149f435d95fb9d480",
+          "sha1": "8171cf4c09e3dd1d68adf71118a4b5c65cf6ea4c",
+          "md5": "3afbe40083621cbbaaa8b872a87b0a4f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.75"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aspects",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-webmvc",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.15"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "cn.hutool",
+          "module": "hutool-all",
+          "version": {
+            "requires": "5.6.0"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jsch",
+          "version": {
+            "requires": "0.1.55"
+          },
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        },
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "excludes": [
+            {
+              "group": "com.google.protobuf",
+              "module": "protobuf-java"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "qilin-1.0.0.jar",
+          "url": "qilin-1.0.0.jar",
+          "size": 37683,
+          "sha512": "d79ac029b1bb417ce861b9f8cff0d2144fe9894305e446de441b3caae59640fdd6e48aa32a5b91a4649c857031fe9a777e651b70b49d921d1781f07ea0b254e0",
+          "sha256": "1145abedbf85afb6f35e35de5360b3a89401d27558c055d149f435d95fb9d480",
+          "sha1": "8171cf4c09e3dd1d68adf71118a4b5c65cf6ea4c",
+          "md5": "3afbe40083621cbbaaa8b872a87b0a4f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "qilin-1.0.0-sources.jar",
+          "url": "qilin-1.0.0-sources.jar",
+          "size": 25797,
+          "sha512": "7c136f7e499d87efed587fbb15c03573b02acd2d8191f43ddb2da2b2e10360581acf37de7f27989c787794e68be7dbd8e4a98da030ffd2681d58cc0ab72585bd",
+          "sha256": "8718334b6a9275382c619b125f4997dc93414f220b82961822402f8f96d84b74",
+          "sha1": "f817e8ac26121a4c4086c6a4a17d76e67e4819fa",
+          "md5": "63af6c75d6bd2cec94b53a0d7b8a5b80"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "qilin-1.0.0-javadoc.jar",
+          "url": "qilin-1.0.0-javadoc.jar",
+          "size": 102152,
+          "sha512": "477991644fa959cd3e25a154b7e509eadfe9f1121fb0f4a418b516723b96308d16e36ea54fada0930d7f522057af4787d641eb3c69f81135fc858ee60ae3dd8b",
+          "sha256": "ecf29dd2dac04dcb12901de98f4889aa067bbd66df4bc5998ee0ecb16d26c66b",
+          "sha1": "bbeb81b95471517f70e34d0193f85d687383d245",
+          "md5": "e7181200f3e8ecf90a49d281027f6a08"
+        }
+      ]
+    }
+  ]
+}
