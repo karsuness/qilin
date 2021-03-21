@@ -79,4 +79,5 @@ public enum DateTimePatternEnum {
 
         return dateTimePatternEnum;
     }
+
 }
